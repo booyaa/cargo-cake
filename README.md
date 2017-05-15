@@ -14,4 +14,6 @@ Warning: do not use when not birthday time.
 
 # Licence / Copyright
 
-License is WTF v2.0. There is no copyright.
+License is WTFPL v2.0.
+
+There is no copyright.
