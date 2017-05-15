@@ -1,7 +1,13 @@
 [package]
 name = "cargo-cake"
-version = "0.1.0"
-authors = ["booyaa <booyaabooyaabooyaa@gmail.com>"]
+version = "1.0.0"
+authors = ["Mark Sta Ana <booyaabooyaabooyaa@gmail.com>"]
+description = "A collection of IRC bots"
+repository = "https://github.com/booyaa/cargo-cake/"
+documentation = "https://docs.rs/cargo-cake/"
+readme = "README.md"
+keywords = ["cake","birthday","joke"]
+license = "WTF"
 
 [dependencies]
 chrono = "0.3"

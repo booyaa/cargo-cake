@@ -48,11 +48,11 @@ rr::::::rrrrr::::::ru::::u    u::::u  s::::::ssss:::::stttttt:::::::tttttt
  r:::::r              uu::::::::uu:::u s:::::::::::ss          tt:::::::::::tt
  rrrrrrr                uuuuuuuu  uuuu  sssssssssss              ttttttttttt"#;
 
-    if "May 16" == now.format("%b %-d").to_string() {
+    if "May 15" == now.format("%b %-d").to_string() {
         println!("{}", ascii_art);
 
     } else {
-        println!(":( come back next on the 15th of May");
+        println!(":( come back on the 15th of May");
     }
     
     
