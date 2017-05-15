@@ -1,8 +1,8 @@
 [package]
 name = "cargo-cake"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Mark Sta Ana <booyaabooyaabooyaa@gmail.com>"]
-description = "A collection of IRC bots"
+description = "A cake for celebrating Rust's birthday"
 repository = "https://github.com/booyaa/cargo-cake/"
 documentation = "https://docs.rs/cargo-cake/"
 readme = "README.md"
