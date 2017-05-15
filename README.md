@@ -4,7 +4,7 @@ A cargo subcommand to for celebrating Rust's birthday.
 
 # installation
 
-`cargo install cargo-cake`
+`cargo install --force cargo-cake`
 
 # Usage
 
