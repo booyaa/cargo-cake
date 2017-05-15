@@ -7,7 +7,7 @@ repository = "https://github.com/booyaa/cargo-cake/"
 documentation = "https://docs.rs/cargo-cake/"
 readme = "README.md"
 keywords = ["cake","birthday","joke"]
-license = "WTF"
+license = "WTFPL"
 
 [dependencies]
 chrono = "0.3"
