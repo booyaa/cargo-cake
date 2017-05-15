@@ -10,7 +10,9 @@ A cargo subcommand to for celebrating Rust's birthday.
 
 `cargo cake`
 
-Warning: do not use when not birthday time.
+The command will work a week from the birthday (15th of May).
+
+Warning: do not use when not in birthday week, as this may cause sadness.
 
 # Licence / Copyright
 

@@ -1,9 +1,10 @@
 
 extern crate chrono;
-// use chrono::prelude::*;
+use chrono::prelude::*;
 
 fn main() {
-    let now = chrono::UTC::now();
+    // let now = chrono::UTC::now();
+    let now = Local::now();
     // source: http://chris.com/ascii/index.php?art=events/birthday
     let ascii_art = r#"
            ~                  ~
@@ -48,9 +49,9 @@ rr::::::rrrrr::::::ru::::u    u::::u  s::::::ssss:::::stttttt:::::::tttttt
  r:::::r              uu::::::::uu:::u s:::::::::::ss          tt:::::::::::tt
  rrrrrrr                uuuuuuuu  uuuu  sssssssssss              ttttttttttt"#;
 
-    if "May 15" == now.format("%b %-d").to_string() {
+    // if "May 15" == now.format("%b %-d").to_string() {
+    if now.month() == 5 && (now.day() >= 15 || now.day() < 22)  {
         println!("{}", ascii_art);
-
     } else {
         println!(":( come back on the 15th of May");
     }

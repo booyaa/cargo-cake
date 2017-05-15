@@ -1,6 +1,6 @@
 [package]
 name = "cargo-cake"
-version = "1.0.2"
+version = "1.0.3"
 authors = ["Mark Sta Ana <booyaabooyaabooyaa@gmail.com>"]
 description = "A cake for celebrating Rust's birthday"
 repository = "https://github.com/booyaa/cargo-cake/"
