@@ -53,7 +53,7 @@ rr::::::rrrrr::::::ru::::u    u::::u  s::::::ssss:::::stttttt:::::::tttttt
  rrrrrrr                uuuuuuuu  uuuu  sssssssssss              ttttttttttt"#;
 
     // if "May 15" == now.format("%b %-d").to_string() {
-    if now.month() == 5 && (now.day() >= 15 || now.day() < 22)  {
+    if now.month() == 5 && (now.day() >= 15 && now.day() < 22)  {
         println!("{}", ascii_art);
     } else {
         println!(":( come back on the 15th of May");
