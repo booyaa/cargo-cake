@@ -11,7 +11,3 @@ license = "WTFPL"
 
 [dependencies]
 chrono = "0.3"
-clippy = {version = "*", optional = true}
-
-[features]
-default = []
