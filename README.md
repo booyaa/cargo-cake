@@ -16,6 +16,10 @@ Warning: do not use when not in birthday week, as this may cause sadness.
 
 ## changelog
 
+## v1.0.6
+
+- Switched to using the [`rust_birthday`](https://crates.io/crates/rust_birthday) crate.
+
 ## v1.0.5
 
 - Critical bug fix that could allow people to celebrate the birthday for a
