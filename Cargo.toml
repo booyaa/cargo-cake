@@ -3,11 +3,12 @@ name = "cargo-cake"
 version = "1.0.5"
 authors = ["Mark Sta Ana <booyaabooyaabooyaa@gmail.com>"]
 description = "A cake for celebrating Rust's birthday"
+homepage = "https://github.com/booyaa/cargo-cake/"
 repository = "https://github.com/booyaa/cargo-cake/"
-documentation = "https://docs.rs/cargo-cake/"
 readme = "README.md"
 keywords = ["cake","birthday","joke"]
-license = "WTFPL"
+license-file = "LICENSE.txt"
+edition = "2018"
 
 [dependencies]
 chrono = "0.3"
