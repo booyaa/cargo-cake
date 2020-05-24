@@ -1,5 +1,12 @@
 # cargo-cake
 
+[![crates.io](https://img.shields.io/crates/v/cargo-cake.svg)](https://crates.io/crates/cargo-cake)
+![github actions](https://github.com/booyaa/cargo-cake/workflows/Rust%20CI/badge.svg)
+![crates.io downloads](https://img.shields.io/crates/d/cargo-cake)
+![github issues open](https://img.shields.io/github/issues/booyaa/cargo-cake)
+![github pull requests open](https://img.shields.io/github/issues-pr/booyaa/cargo-cake)
+![github license](https://img.shields.io/github/license/booyaa/cargo-cake)
+
 A cargo subcommand to for celebrating Rust's birthday.
 
 ## installation
